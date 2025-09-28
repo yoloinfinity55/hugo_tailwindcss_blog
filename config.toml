@@ -1,6 +1,6 @@
 baseURL = "https://example.com/"  # Replace with your domain
 languageCode = "en-us"
-title = "My Personal Blog"
+title = "YoloInfinityHugp"
 theme = []  # No external theme; using custom layouts
 
 [pagination]
