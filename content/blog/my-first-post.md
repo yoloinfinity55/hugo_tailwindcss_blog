@@ -1,5 +1,5 @@
 ---
-title: My First Post
+title: my-first-post
 description: "Welcome to my new blog. This site is built with Eleventy and styled with Tailwind CSS."
 date: 2025-09-25
 tags:

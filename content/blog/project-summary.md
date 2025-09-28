@@ -1,5 +1,5 @@
 ---
-title: Project Summary
+title: Fifth Post
 description: "A detailed explanation of the blog project, its technologies, and structure."
 date: 2025-09-26
 tags:
