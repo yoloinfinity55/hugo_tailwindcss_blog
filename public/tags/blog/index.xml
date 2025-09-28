@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on YoloInfinityHugo</title>
-    <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/blog/</link>
+    <link>http://localhost:1313/hugo_tailwindcss_blog/tags/blog/</link>
     <description>Recent content in Blog on YoloInfinityHugo</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/hugo_tailwindcss_blog/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Third Post</title>
-      <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/blog/third-post/</link>
+      <link>http://localhost:1313/hugo_tailwindcss_blog/blog/third-post/</link>
       <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/blog/third-post/</guid>
+      <guid>http://localhost:1313/hugo_tailwindcss_blog/blog/third-post/</guid>
       <description>&lt;p&gt;This is the content in Markdown.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
   </channel>

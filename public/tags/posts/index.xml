@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on YoloInfinityHugo</title>
-    <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/posts/</link>
+    <link>http://localhost:1313/hugo_tailwindcss_blog/tags/posts/</link>
     <description>Recent content in Posts on YoloInfinityHugo</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/hugo_tailwindcss_blog/tags/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fifth Post</title>
-      <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/blog/project-summary/</link>
+      <link>http://localhost:1313/hugo_tailwindcss_blog/blog/project-summary/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/blog/project-summary/</guid>
+      <guid>http://localhost:1313/hugo_tailwindcss_blog/blog/project-summary/</guid>
       <description>&lt;p&gt;This project is a static blog generator built using &lt;strong&gt;Hugo&lt;/strong&gt; and styled with &lt;strong&gt;Tailwind CSS&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a breakdown of its key components and how it works:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Hugo:&lt;/strong&gt; A fast and flexible static site generator written in Go. It takes content files (like Markdown) and uses Go Templates to build a complete website.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tailwind CSS:&lt;/strong&gt; A utility-first CSS framework for rapid UI development. It&amp;rsquo;s configured in &lt;code&gt;tailwind.config.js&lt;/code&gt; and processed to generate the final CSS.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Markdown:&lt;/strong&gt; Content for blog posts is written in Markdown files located in the &lt;code&gt;content/&lt;/code&gt; directory.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Archetypes:&lt;/strong&gt; Post templates, or archetypes, are used to pre-fill front matter for new content, ensuring consistency.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>My Second Post</title>
-      <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/blog/my-second-post/</link>
+      <link>http://localhost:1313/hugo_tailwindcss_blog/blog/my-second-post/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/blog/my-second-post/</guid>
+      <guid>http://localhost:1313/hugo_tailwindcss_blog/blog/my-second-post/</guid>
       <description>&lt;h2 id=&#34;another-great-post&#34;&gt;Another Great Post&lt;/h2&gt;&#xA;&lt;p&gt;This is my second post, where I will be discussing more interesting topics.&lt;/p&gt;</description>
     </item>
     <item>
       <title>my-first-post</title>
-      <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/blog/my-first-post/</link>
+      <link>http://localhost:1313/hugo_tailwindcss_blog/blog/my-first-post/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/blog/my-first-post/</guid>
+      <guid>http://localhost:1313/hugo_tailwindcss_blog/blog/my-first-post/</guid>
       <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello, World!&lt;/h1&gt;&#xA;&lt;p&gt;Welcome to my new blog. This site is built with &lt;strong&gt;Hugo&lt;/strong&gt; and styled with &lt;strong&gt;Tailwind CSS&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Here is a list of things I&amp;rsquo;m excited to write about:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Technology&lt;/li&gt;&#xA;&lt;li&gt;Web Development&lt;/li&gt;&#xA;&lt;li&gt;Tutorials&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

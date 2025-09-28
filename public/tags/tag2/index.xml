@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tag2 on YoloInfinityHugo</title>
-    <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/tag2/</link>
+    <link>http://localhost:1313/hugo_tailwindcss_blog/tags/tag2/</link>
     <description>Recent content in Tag2 on YoloInfinityHugo</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 27 Sep 2025 14:30:00 +0000</lastBuildDate>
-    <atom:link href="https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/hugo_tailwindcss_blog/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Fourth Post</title>
-      <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/blog/fourth-post/</link>
+      <link>http://localhost:1313/hugo_tailwindcss_blog/blog/fourth-post/</link>
       <pubDate>Sat, 27 Sep 2025 14:30:00 +0000</pubDate>
-      <guid>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/blog/fourth-post/</guid>
+      <guid>http://localhost:1313/hugo_tailwindcss_blog/blog/fourth-post/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;This is a personal blog built using the &lt;strong&gt;Hugo&lt;/strong&gt; static site generator and styled with &lt;strong&gt;Tailwind CSS&lt;/strong&gt;. The blog posts are written in Markdown.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;core-technologies&#34;&gt;Core Technologies&lt;/h2&gt;&#xA;&lt;p&gt;Here are the key technologies used in this project:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Eleventy:&lt;/strong&gt; A simple static site generator.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tailwind CSS:&lt;/strong&gt; A utility-first CSS framework for styling.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Go Templates:&lt;/strong&gt; Hugo&amp;rsquo;s native templating language used in the &lt;code&gt;layouts/&lt;/code&gt; directory.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Markdown:&lt;/strong&gt; Used for writing content in the &lt;code&gt;content/&lt;/code&gt; directory.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

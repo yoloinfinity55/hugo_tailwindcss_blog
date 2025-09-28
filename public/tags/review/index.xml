@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Review on YoloInfinityHugo</title>
-    <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/review/</link>
+    <link>http://localhost:1313/hugo_tailwindcss_blog/tags/review/</link>
     <description>Recent content in Review on YoloInfinityHugo</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 21 May 2024 10:00:00 -0500</lastBuildDate>
-    <atom:link href="https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/review/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/hugo_tailwindcss_blog/tags/review/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>10 Suggestions to Improve This Hugo &#43; Tailwind Blog</title>
-      <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/blog/10-suggestions-to-improve-your-hugo-blog/</link>
+      <link>http://localhost:1313/hugo_tailwindcss_blog/blog/10-suggestions-to-improve-your-hugo-blog/</link>
       <pubDate>Tue, 21 May 2024 10:00:00 -0500</pubDate>
-      <guid>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/blog/10-suggestions-to-improve-your-hugo-blog/</guid>
+      <guid>http://localhost:1313/hugo_tailwindcss_blog/blog/10-suggestions-to-improve-your-hugo-blog/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve analyzed this project, and it&amp;rsquo;s a great start for a blog using Hugo and Tailwind CSS. However, there are several areas with significant potential for improvement in terms of robustness, styling, and ease of use.&lt;/p&gt;&#xA;&lt;p&gt;Here are 10 suggestions to enhance the project:&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-correct-project-description-content&#34;&gt;1. Correct Project Description Content&lt;/h3&gt;&#xA;&lt;p&gt;A critical issue is that some blog posts describe a project built with &lt;strong&gt;Eleventy&lt;/strong&gt; and &lt;strong&gt;Nunjucks&lt;/strong&gt;. However, this project is built with &lt;strong&gt;Hugo&lt;/strong&gt;. This is very confusing for readers.&lt;/p&gt;</description>
     </item>
   </channel>

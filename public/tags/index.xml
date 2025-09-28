@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on YoloInfinityHugo</title>
-    <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/</link>
+    <link>http://localhost:1313/hugo_tailwindcss_blog/tags/</link>
     <description>Recent content in Tags on YoloInfinityHugo</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 27 Sep 2025 14:30:00 +0000</lastBuildDate>
-    <atom:link href="https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/hugo_tailwindcss_blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Example</title>
-      <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/example/</link>
+      <link>http://localhost:1313/hugo_tailwindcss_blog/tags/example/</link>
       <pubDate>Sat, 27 Sep 2025 14:30:00 +0000</pubDate>
-      <guid>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/example/</guid>
+      <guid>http://localhost:1313/hugo_tailwindcss_blog/tags/example/</guid>
       <description></description>
     </item>
     <item>
       <title>Tag1</title>
-      <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/tag1/</link>
+      <link>http://localhost:1313/hugo_tailwindcss_blog/tags/tag1/</link>
       <pubDate>Sat, 27 Sep 2025 14:30:00 +0000</pubDate>
-      <guid>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/tag1/</guid>
+      <guid>http://localhost:1313/hugo_tailwindcss_blog/tags/tag1/</guid>
       <description></description>
     </item>
     <item>
       <title>Tag2</title>
-      <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/tag2/</link>
+      <link>http://localhost:1313/hugo_tailwindcss_blog/tags/tag2/</link>
       <pubDate>Sat, 27 Sep 2025 14:30:00 +0000</pubDate>
-      <guid>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/tag2/</guid>
+      <guid>http://localhost:1313/hugo_tailwindcss_blog/tags/tag2/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/blog/</link>
+      <link>http://localhost:1313/hugo_tailwindcss_blog/tags/blog/</link>
       <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/blog/</guid>
+      <guid>http://localhost:1313/hugo_tailwindcss_blog/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Intro</title>
-      <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/intro/</link>
+      <link>http://localhost:1313/hugo_tailwindcss_blog/tags/intro/</link>
       <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/intro/</guid>
+      <guid>http://localhost:1313/hugo_tailwindcss_blog/tags/intro/</guid>
       <description></description>
     </item>
     <item>
       <title>Posts</title>
-      <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/posts/</link>
+      <link>http://localhost:1313/hugo_tailwindcss_blog/tags/posts/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/posts/</guid>
+      <guid>http://localhost:1313/hugo_tailwindcss_blog/tags/posts/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/hugo/</link>
+      <link>http://localhost:1313/hugo_tailwindcss_blog/tags/hugo/</link>
       <pubDate>Tue, 21 May 2024 10:00:00 -0500</pubDate>
-      <guid>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/hugo/</guid>
+      <guid>http://localhost:1313/hugo_tailwindcss_blog/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Improvements</title>
-      <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/improvements/</link>
+      <link>http://localhost:1313/hugo_tailwindcss_blog/tags/improvements/</link>
       <pubDate>Tue, 21 May 2024 10:00:00 -0500</pubDate>
-      <guid>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/improvements/</guid>
+      <guid>http://localhost:1313/hugo_tailwindcss_blog/tags/improvements/</guid>
       <description></description>
     </item>
     <item>
       <title>Review</title>
-      <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/review/</link>
+      <link>http://localhost:1313/hugo_tailwindcss_blog/tags/review/</link>
       <pubDate>Tue, 21 May 2024 10:00:00 -0500</pubDate>
-      <guid>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/review/</guid>
+      <guid>http://localhost:1313/hugo_tailwindcss_blog/tags/review/</guid>
       <description></description>
     </item>
     <item>
       <title>Tailwindcss</title>
-      <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/tailwindcss/</link>
+      <link>http://localhost:1313/hugo_tailwindcss_blog/tags/tailwindcss/</link>
       <pubDate>Tue, 21 May 2024 10:00:00 -0500</pubDate>
-      <guid>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/tailwindcss/</guid>
+      <guid>http://localhost:1313/hugo_tailwindcss_blog/tags/tailwindcss/</guid>
       <description></description>
     </item>
   </channel>
