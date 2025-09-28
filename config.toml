@@ -8,7 +8,7 @@ theme = []  # No external theme; using custom layouts
 
 [params]
   description = "A personal blog and portfolio"
-  author = "Your Name"
+  author = "Yolo Infinity"
 
 [markup]
   [markup.goldmark]
