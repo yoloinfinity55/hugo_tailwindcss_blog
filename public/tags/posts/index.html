@@ -36,44 +36,57 @@
 </header>
   <main class="container mx-auto px-4 py-8">
     
-<h1 class="text-3xl font-bold mb-6">Blog</h1>
+<main class="container mx-auto px-4 py-8">
+  <h1 class="text-3xl font-bold mb-8">Posts</h1>
+
+  
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    
+      <a href="/hugo_tailwindcss_blog/blog/project-summary/" class="block p-6 border border-gray-200 dark:border-gray-700 rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all duration-300 ease-in-out">
+        <article>
+          <h2 class="text-xl font-semibold mb-2 text-lightText dark:text-darkText">Fifth Post</h2>
+          <p class="text-sm text-gray-500 dark:text-gray-400 mb-3">
+            <time datetime="2025-09-26">September 26, 2025</time>
+          </p>
+          <p class="text-gray-600 dark:text-gray-300">
+            This project is a static blog generator built using Hugo and styled with Tailwind CSS.
+Here&rsquo;s a breakdown of its …
+          </p>
+        </article>
+      </a>
+    
+      <a href="/hugo_tailwindcss_blog/blog/my-second-post/" class="block p-6 border border-gray-200 dark:border-gray-700 rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all duration-300 ease-in-out">
+        <article>
+          <h2 class="text-xl font-semibold mb-2 text-lightText dark:text-darkText">My Second Post</h2>
+          <p class="text-sm text-gray-500 dark:text-gray-400 mb-3">
+            <time datetime="2025-09-26">September 26, 2025</time>
+          </p>
+          <p class="text-gray-600 dark:text-gray-300">
+            Another Great Post This is my second post, where I will be discussing more interesting topics.
+
+          </p>
+        </article>
+      </a>
+    
+      <a href="/hugo_tailwindcss_blog/blog/my-first-post/" class="block p-6 border border-gray-200 dark:border-gray-700 rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all duration-300 ease-in-out">
+        <article>
+          <h2 class="text-xl font-semibold mb-2 text-lightText dark:text-darkText">my-first-post</h2>
+          <p class="text-sm text-gray-500 dark:text-gray-400 mb-3">
+            <time datetime="2025-09-25">September 25, 2025</time>
+          </p>
+          <p class="text-gray-600 dark:text-gray-300">
+            Hello, World! Welcome to my new blog. This site is built with Hugo and styled with Tailwind CSS.
+Here is a list of …
+          </p>
+        </article>
+      </a>
+    
+  </div>
+
+  
 
 
-  <article class="mb-8 p-4 border rounded shadow-sm dark:border-gray-700">
-    <h2 class="text-2xl"><a href="http://localhost:1313/hugo_tailwindcss_blog/blog/project-summary/">Fifth Post</a></h2>
-    <p class="text-sm text-gray-500">September 26, 2025</p>
-    <p><p>This project is a static blog generator built using <strong>Hugo</strong> and styled with <strong>Tailwind CSS</strong>.</p>
-<p>Here&rsquo;s a breakdown of its key components and how it works:</p>
-<ol>
-<li><strong>Hugo:</strong> A fast and flexible static site generator written in Go. It takes content files (like Markdown) and uses Go Templates to build a complete website.</li>
-<li><strong>Tailwind CSS:</strong> A utility-first CSS framework for rapid UI development. It&rsquo;s configured in <code>tailwind.config.js</code> and processed to generate the final CSS.</li>
-<li><strong>Markdown:</strong> Content for blog posts is written in Markdown files located in the <code>content/</code> directory.</li>
-<li><strong>Archetypes:</strong> Post templates, or archetypes, are used to pre-fill front matter for new content, ensuring consistency.</li>
-</ol></p>
-  </article>
-
-  <article class="mb-8 p-4 border rounded shadow-sm dark:border-gray-700">
-    <h2 class="text-2xl"><a href="http://localhost:1313/hugo_tailwindcss_blog/blog/my-second-post/">My Second Post</a></h2>
-    <p class="text-sm text-gray-500">September 26, 2025</p>
-    <p><h2 id="another-great-post">Another Great Post</h2>
-<p>This is my second post, where I will be discussing more interesting topics.</p></p>
-  </article>
-
-  <article class="mb-8 p-4 border rounded shadow-sm dark:border-gray-700">
-    <h2 class="text-2xl"><a href="http://localhost:1313/hugo_tailwindcss_blog/blog/my-first-post/">my-first-post</a></h2>
-    <p class="text-sm text-gray-500">September 25, 2025</p>
-    <p><h1 id="hello-world">Hello, World!</h1>
-<p>Welcome to my new blog. This site is built with <strong>Hugo</strong> and styled with <strong>Tailwind CSS</strong>.</p>
-<p>Here is a list of things I&rsquo;m excited to write about:</p>
-<ul>
-<li>Technology</li>
-<li>Web Development</li>
-<li>Tutorials</li>
-</ul></p>
-  </article>
-
-
-
+</main>
 
   </main>
   <footer class="bg-gray-100 dark:bg-gray-900 py-4 text-center">

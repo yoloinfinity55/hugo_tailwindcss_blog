@@ -1,13 +1,24 @@
 {{ define "main" }}
-<h1 class="text-3xl font-bold mb-6">Blog</h1>
-{{ $paginator := .Paginate .Pages }}
-{{ range $paginator.Pages }}
-  <article class="mb-8 p-4 border rounded shadow-sm dark:border-gray-700">
-    <h2 class="text-2xl"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-    <p class="text-sm text-gray-500">{{ .Date.Format "January 2, 2006" }}</p>
-    <p>{{ .Summary }}</p>
-  </article>
-{{ end }}
-<!-- Pagination -->
-{{ template "_internal/pagination.html" $paginator }}
+<main class="container mx-auto px-4 py-8">
+  <h1 class="text-3xl font-bold mb-8">{{ .Title }}</h1>
+
+  {{/* Responsive grid container */}}
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {{ range .Paginator.Pages }}
+      <a href="{{ .RelPermalink }}" class="block p-6 border border-gray-200 dark:border-gray-700 rounded-lg hover:shadow-lg hover:-translate-y-1 transition-all duration-300 ease-in-out">
+        <article>
+          <h2 class="text-xl font-semibold mb-2 text-lightText dark:text-darkText">{{ .Title }}</h2>
+          <p class="text-sm text-gray-500 dark:text-gray-400 mb-3">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+          </p>
+          <p class="text-gray-600 dark:text-gray-300">
+            {{ .Summary | plainify | truncate 120 }}
+          </p>
+        </article>
+      </a>
+    {{ end }}
+  </div>
+
+  {{ partial "pagination.html" . }}
+</main>
 {{ end }}
