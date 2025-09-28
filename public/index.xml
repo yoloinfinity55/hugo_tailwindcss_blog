@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>YoloInfinityHugp</title>
-    <link>https://example.com/</link>
+    <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/</link>
     <description>Recent content on YoloInfinityHugp</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yoloinfinity55.github.io/hugo_tailwindcss_blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>https://example.com/blog/first-post/</link>
+      <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/blog/first-post/</link>
       <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/first-post/</guid>
+      <guid>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/blog/first-post/</guid>
       <description>&lt;p&gt;This is the content in Markdown.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     <item>
       <title>My Second Post</title>
-      <link>https://example.com/blog/my-second-post/</link>
+      <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/blog/my-second-post/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/my-second-post/</guid>
+      <guid>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/blog/my-second-post/</guid>
       <description>&lt;h2 id=&#34;another-great-post&#34;&gt;Another Great Post&lt;/h2&gt;&#xA;&lt;p&gt;This is my second post, where I will be discussing more interesting topics.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Project Summary</title>
-      <link>https://example.com/blog/project-summary/</link>
+      <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/blog/project-summary/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/project-summary/</guid>
+      <guid>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/blog/project-summary/</guid>
       <description>&lt;p&gt;This project is a static blog generator built using Eleventy, a simpler static site generator, and styled with Tailwind CSS.&lt;/p&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a breakdown of its key components and how it works:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Eleventy (11ty):&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;It&amp;rsquo;s a static site generator that takes various template files (like Nunjucks, Markdown) and processes them into static HTML files.&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;eleventy.config.js&lt;/code&gt; file configures Eleventy, specifying input/output directories (&lt;code&gt;src&lt;/code&gt; and &lt;code&gt;_site&lt;/code&gt; respectively), and handling asset copying.&lt;/li&gt;&#xA;&lt;li&gt;It uses &lt;code&gt;luxon&lt;/code&gt; for date formatting, as seen in the &lt;code&gt;postDate&lt;/code&gt; filter.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Templating (Nunjucks and Markdown):&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>https://example.com/blog/my-first-post/</link>
+      <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/blog/my-first-post/</link>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/my-first-post/</guid>
+      <guid>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/blog/my-first-post/</guid>
       <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello, World!&lt;/h1&gt;&#xA;&lt;p&gt;Welcome to my new blog. This site is built with Eleventy and styled with Tailwind CSS.&lt;/p&gt;&#xA;&lt;p&gt;Here is a list of things I&amp;rsquo;m excited to write about:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Technology&lt;/li&gt;&#xA;&lt;li&gt;Web Development&lt;/li&gt;&#xA;&lt;li&gt;Tutorials&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>https://example.com/about/</link>
+      <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/about/</guid>
+      <guid>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/about/</guid>
       <description>&lt;p&gt;Hi, I&amp;rsquo;m [Your Name]. This is my bio&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>https://example.com/contact/</link>
+      <link>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/contact/</guid>
+      <guid>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/contact/</guid>
       <description>&lt;p&gt;Reach me at &lt;a href=&#34;mailto:email@example.com&#34;&gt;email@example.com&lt;/a&gt; or via the form below.&lt;/p&gt;&#xA;&lt;!-- Add static form code if using Netlify --&gt;</description>
     </item>
   </channel>
