@@ -1,0 +1,13 @@
+{{ define "main" }}
+<section class="text-center py-12">
+  <h1 class="text-4xl font-bold mb-4">Welcome to My Blog</h1>
+  <p class="text-lg mb-6">A place for thoughts, tutorials, and more.</p>
+  <a href="/blog/" class="bg-lightAccent text-white px-6 py-3 rounded hover:bg-blue-600">Read Blog</a>
+</section>
+<h2 class="text-2xl font-bold mb-4">Recent Posts</h2>
+{{ range first 3 (where .Site.RegularPages "Section" "blog") }}
+  <div class="mb-4">
+    <a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Date.Format "Jan 2, 2006" }}
+  </div>
+{{ end }}
+{{ end }}

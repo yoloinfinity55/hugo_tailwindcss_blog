@@ -1,0 +1,13 @@
+{{ define "main" }}
+<h1 class="text-3xl font-bold mb-6">Blog</h1>
+{{ $paginator := .Paginate .Pages }}
+{{ range $paginator.Pages }}
+  <article class="mb-8 p-4 border rounded shadow-sm dark:border-gray-700">
+    <h2 class="text-2xl"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    <p class="text-sm text-gray-500">{{ .Date.Format "January 2, 2006" }}</p>
+    <p>{{ .Summary }}</p>
+  </article>
+{{ end }}
+<!-- Pagination -->
+{{ template "_internal/pagination.html" $paginator }}
+{{ end }}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-us" class="scroll-smooth">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Blog</title>
+  <meta name="description" content="A short meta description for SEO and summaries.">
+  
+  <link rel="stylesheet" href="/css/dist/tailwind.min.7488086f23a4fb5db9dc7cfa9f17bf3d5a45aea9845d5803b60b1411d963cb00.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body class="antialiased">
+  <header class="bg-white dark:bg-gray-800 shadow-md">
+  <div class="container mx-auto px-4 py-4 flex justify-between items-center" x-data="{ open: false }">
+    <a href="/" class="text-2xl font-bold">My Personal Blog</a>
+    <button @click="open = !open" class="md:hidden">☰</button>
+    <nav x-show="open" class="md:flex md:space-x-4 block md:block" x-cloak>
+      
+        <a href="/" class="block hover:text-lightAccent dark:hover:text-darkAccent">Home</a>
+      
+        <a href="/blog/" class="block hover:text-lightAccent dark:hover:text-darkAccent">Blog</a>
+      
+        <a href="/about/" class="block hover:text-lightAccent dark:hover:text-darkAccent">About</a>
+      
+        <a href="/contact/" class="block hover:text-lightAccent dark:hover:text-darkAccent">Contact</a>
+      
+    </nav>
+    <button id="theme-toggle" aria-label="Toggle dark mode" class="p-2">
+  
+  Toggle Mode
+</button>
+  </div>
+</header>
+  <main class="container mx-auto px-4 py-8">
+    
+<article>
+  <h1 class="text-3xl font-bold mb-4">Your Blog Post Title</h1>
+  <p class="text-sm text-gray-500 mb-6">September 27, 2025</p>
+  <div class="prose dark:prose-invert max-w-none">
+    <p>title: &ldquo;Welcome to the Project!&rdquo;
+description: &ldquo;A guide to understanding the structure, technologies, and conventions of this Eleventy-powered blog.&rdquo;
+date: 2025-09-27
+tags:</p>
+<ul>
+<li>posts
+layout: post.njk</li>
+</ul>
+<blockquote>
+<p>This is a personal blog built using the Eleventy static site generator and styled with Tailwind CSS. The blog posts are written in Markdown and the site is structured using Nunjucks templates.</p></blockquote>
+<h2 id="core-technologies">Core Technologies</h2>
+<p>Here are the key technologies used in this project:</p>
+<ul>
+<li><strong>Eleventy:</strong> A simple static site generator.</li>
+<li><strong>Tailwind CSS:</strong> A utility-first CSS framework for styling.</li>
+<li><strong>Nunjucks:</strong> A templating language for creating layouts.</li>
+<li><strong>PostCSS:</strong> A tool for transforming CSS with JavaScript.</li>
+<li><strong>Luxon:</strong> A library for working with dates and times.</li>
+</ul>
+<h2 id="project-anatomy">Project Anatomy</h2>
+<p>The project is organized as follows:</p>
+<ul>
+<li><code>src</code>: Contains all the source code for the blog.
+<ul>
+<li><code>_includes</code>: Holds the Nunjucks templates for layouts (<code>base.njk</code>, <code>post.njk</code>).</li>
+<li><code>assets</code>: Contains static assets like CSS and images.</li>
+<li><code>*.md</code>: The blog posts themselves, written in Markdown.</li>
+<li><code>index.njk</code>: The main entry point for the blog&rsquo;s homepage.</li>
+</ul>
+</li>
+<li><code>_site</code>: The output directory where the generated static site is placed.</li>
+<li><code>eleventy.config.js</code>: The main configuration file for Eleventy.</li>
+<li><code>package.json</code>: Defines project dependencies and scripts.</li>
+<li><code>tailwind.config.js</code>: The configuration file for Tailwind CSS.</li>
+</ul>
+<h2 id="getting-started">Getting Started</h2>
+<h3 id="development">Development</h3>
+<p>To start the local development server with live reloading, run:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npm start
+</span></span></code></pre></div><p>The site will be available at <code>http://localhost:8080</code>.</p>
+<h3 id="production">Production</h3>
+<p>To build a production-ready version of the site, run:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npm run build
+</span></span></code></pre></div><p>The generated files will be placed in the <code>_site</code> directory.</p>
+<h2 id="development-guidelines">Development Guidelines</h2>
+<h3 id="styling">Styling</h3>
+<p>The project uses <strong>Tailwind CSS</strong> for all styling. The main stylesheet is located at <code>src/assets/css/index.css</code> and is processed by PostCSS.</p>
+<h3 id="templating">Templating</h3>
+<p>We use <strong>Nunjucks</strong> for templating. Key templates include:</p>
+<ul>
+<li><code>src/_includes/base.njk</code>: The main site layout.</li>
+<li><code>src/_includes/post.njk</code>: The layout for individual blog posts.</li>
+</ul>
+<h3 id="blog-posts">Blog Posts</h3>
+<p>Blog posts are written in <strong>Markdown</strong> and are located in the <code>src</code> directory. Each post must include a front matter section with metadata:</p>
+<ul>
+<li><code>title</code>: The title of the post.</li>
+<li><code>description</code>: A brief summary of the post.</li>
+<li><code>date</code>: The publication date.</li>
+<li><code>tags</code>: A list of relevant tags.</li>
+</ul>
+
+  </div>
+</article>
+
+  </main>
+  <footer class="bg-gray-100 dark:bg-gray-900 py-4 text-center">
+  <p>&copy; 2025 Your Name. All rights reserved.</p>
+  
+  <a href="https://github.com/yourusername">GitHub</a> | <a href="https://x.com/yourusername">X</a> | <a href="https://linkedin.com/in/yourusername">LinkedIn</a>
+</footer>
+  
+  <script src="/js/theme-toggle.min.c680261665a0af073dcb3f07b827e4bf1225dfb00e0a6d8282a847c1ea710859.js"></script>
+</body>
+</html>

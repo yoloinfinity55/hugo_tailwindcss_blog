@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-us" class="scroll-smooth">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Blog</title>
+  <meta name="description" content="A personal blog and portfolio">
+  
+  <link rel="stylesheet" href="/css/dist/tailwind.min.7488086f23a4fb5db9dc7cfa9f17bf3d5a45aea9845d5803b60b1411d963cb00.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body class="antialiased">
+  <header class="bg-white dark:bg-gray-800 shadow-md">
+  <div class="container mx-auto px-4 py-4 flex justify-between items-center" x-data="{ open: false }">
+    <a href="/" class="text-2xl font-bold">My Personal Blog</a>
+    <button @click="open = !open" class="md:hidden">☰</button>
+    <nav x-show="open" class="md:flex md:space-x-4 block md:block" x-cloak>
+      
+        <a href="/" class="block hover:text-lightAccent dark:hover:text-darkAccent">Home</a>
+      
+        <a href="/blog/" class="block hover:text-lightAccent dark:hover:text-darkAccent">Blog</a>
+      
+        <a href="/about/" class="block hover:text-lightAccent dark:hover:text-darkAccent">About</a>
+      
+        <a href="/contact/" class="block hover:text-lightAccent dark:hover:text-darkAccent">Contact</a>
+      
+    </nav>
+    <button id="theme-toggle" aria-label="Toggle dark mode" class="p-2">
+  
+  Toggle Mode
+</button>
+  </div>
+</header>
+  <main class="container mx-auto px-4 py-8">
+    
+<h1 class="text-3xl font-bold mb-6">Blog</h1>
+
+
+  <article class="mb-8 p-4 border rounded shadow-sm dark:border-gray-700">
+    <h2 class="text-2xl"><a href="http://localhost:1313/blog/gemini/">Your Blog Post Title</a></h2>
+    <p class="text-sm text-gray-500">September 27, 2025</p>
+    <p><p>title: &ldquo;Welcome to the Project!&rdquo;
+description: &ldquo;A guide to understanding the structure, technologies, and conventions of this Eleventy-powered blog.&rdquo;
+date: 2025-09-27
+tags:</p>
+<ul>
+<li>posts
+layout: post.njk</li>
+</ul>
+<blockquote>
+<p>This is a personal blog built using the Eleventy static site generator and styled with Tailwind CSS. The blog posts are written in Markdown and the site is structured using Nunjucks templates.</p></blockquote>
+<h2 id="core-technologies">Core Technologies</h2>
+<p>Here are the key technologies used in this project:</p>
+<ul>
+<li><strong>Eleventy:</strong> A simple static site generator.</li>
+<li><strong>Tailwind CSS:</strong> A utility-first CSS framework for styling.</li>
+<li><strong>Nunjucks:</strong> A templating language for creating layouts.</li>
+<li><strong>PostCSS:</strong> A tool for transforming CSS with JavaScript.</li>
+<li><strong>Luxon:</strong> A library for working with dates and times.</li>
+</ul>
+<h2 id="project-anatomy">Project Anatomy</h2>
+<p>The project is organized as follows:</p></p>
+  </article>
+
+
+
+
+  </main>
+  <footer class="bg-gray-100 dark:bg-gray-900 py-4 text-center">
+  <p>&copy; 2025 Your Name. All rights reserved.</p>
+  
+  <a href="https://github.com/yourusername">GitHub</a> | <a href="https://x.com/yourusername">X</a> | <a href="https://linkedin.com/in/yourusername">LinkedIn</a>
+</footer>
+  
+  <script src="/js/theme-toggle.min.c680261665a0af073dcb3f07b827e4bf1225dfb00e0a6d8282a847c1ea710859.js"></script>
+</body>
+</html>

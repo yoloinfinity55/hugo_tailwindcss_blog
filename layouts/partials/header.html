@@ -1,0 +1,12 @@
+<header class="bg-white dark:bg-gray-800 shadow-md">
+  <div class="container mx-auto px-4 py-4 flex justify-between items-center" x-data="{ open: false }">
+    <a href="/" class="text-2xl font-bold">{{ .Site.Title }}</a>
+    <button @click="open = !open" class="md:hidden">☰</button>
+    <nav x-show="open" class="md:flex md:space-x-4 block md:block" x-cloak>
+      {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}" class="block hover:text-lightAccent dark:hover:text-darkAccent">{{ .Name }}</a>
+      {{ end }}
+    </nav>
+    {{ partial "mode-toggle.html" . }}
+  </div>
+</header>
