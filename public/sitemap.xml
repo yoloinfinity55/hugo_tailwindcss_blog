@@ -2,52 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/hugo_tailwindcss_blog/tags/example/</loc>
-    <lastmod>2025-09-27T14:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/hugo_tailwindcss_blog/tags/tag1/</loc>
-    <lastmod>2025-09-27T14:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/hugo_tailwindcss_blog/tags/tag2/</loc>
-    <lastmod>2025-09-27T14:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/hugo_tailwindcss_blog/tags/</loc>
-    <lastmod>2025-09-27T14:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/hugo_tailwindcss_blog/blog/gemini/</loc>
-    <lastmod>2025-09-27T14:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/hugo_tailwindcss_blog/tags/blog/</loc>
+    <loc>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/blog/</loc>
     <lastmod>2025-09-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo_tailwindcss_blog/tags/intro/</loc>
+    <loc>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/intro/</loc>
     <lastmod>2025-09-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo_tailwindcss_blog/blog/first-post/</loc>
+    <loc>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/blog/first-post/</loc>
     <lastmod>2025-09-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo_tailwindcss_blog/blog/my-second-post/</loc>
+    <loc>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/</loc>
+    <lastmod>2025-09-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/blog/my-second-post/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo_tailwindcss_blog/tags/posts/</loc>
+    <loc>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/tags/posts/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo_tailwindcss_blog/blog/project-summary/</loc>
+    <loc>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/blog/project-summary/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo_tailwindcss_blog/blog/my-first-post/</loc>
+    <loc>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/blog/my-first-post/</loc>
     <lastmod>2025-09-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo_tailwindcss_blog/blog/</loc>
+    <loc>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/blog/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo_tailwindcss_blog/</loc>
+    <loc>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo_tailwindcss_blog/about/</loc>
+    <loc>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/hugo_tailwindcss_blog/categories/</loc>
+    <loc>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/hugo_tailwindcss_blog/contact/</loc>
+    <loc>https://yoloinfinity55.github.io/hugo_tailwindcss_blog/contact/</loc>
   </url>
 </urlset>
