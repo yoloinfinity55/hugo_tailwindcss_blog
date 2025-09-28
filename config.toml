@@ -1,6 +1,6 @@
 baseURL = "https://yoloinfinity55.github.io/hugo_tailwindcss_blog/"  # Replace with your domain
 languageCode = "en-us"
-title = "YoloInfinityHugp"
+title = "YoloInfinityHugo"
 theme = []  # No external theme; using custom layouts
 
 [pagination]
