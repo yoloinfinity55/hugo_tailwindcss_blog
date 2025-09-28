@@ -7,6 +7,15 @@ tags:
 layout: post.njk
 image: /assets/images/default-post-image.png
 ---
+
+
+title: "My Fourth Post"
+date: 2025-09-27T14:30:00+00:00  # Use ISO format for date/time
+draft: true  # Set to false when ready to publish
+tags: ["tag1", "tag2", "example"]  # Optional: Add relevant tags
+description: "A short meta description for SEO and summaries."  # Optional
+
+
 This project is a static blog generator built using Eleventy, a simpler static site generator, and styled with Tailwind CSS.
 
 Here's a breakdown of its key components and how it works:

@@ -1,7 +1,7 @@
 ---
 title: "My Fourth Post"
 date: 2025-09-27T14:30:00+00:00  # Use ISO format for date/time
-draft: true  # Set to false when ready to publish
+draft: false  # Set to false when ready to publish
 tags: ["tag1", "tag2", "example"]  # Optional: Add relevant tags
 description: "A short meta description for SEO and summaries."  # Optional
 ---
