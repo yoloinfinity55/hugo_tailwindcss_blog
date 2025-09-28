@@ -40,61 +40,14 @@
   <h1 class="text-3xl font-bold mb-4">Fifth Post</h1>
   <p class="text-sm text-gray-500 mb-6">September 26, 2025</p>
   <div class="prose dark:prose-invert max-w-none">
-    <p>This project is a static blog generator built using Eleventy, a simpler static site generator, and styled with Tailwind CSS.</p>
+    <p>This project is a static blog generator built using <strong>Hugo</strong> and styled with <strong>Tailwind CSS</strong>.</p>
 <p>Here&rsquo;s a breakdown of its key components and how it works:</p>
 <ol>
-<li>
-<p><strong>Eleventy (11ty):</strong></p>
-<ul>
-<li>It&rsquo;s a static site generator that takes various template files (like Nunjucks, Markdown) and processes them into static HTML files.</li>
-<li>The <code>eleventy.config.js</code> file configures Eleventy, specifying input/output directories (<code>src</code> and <code>_site</code> respectively), and handling asset copying.</li>
-<li>It uses <code>luxon</code> for date formatting, as seen in the <code>postDate</code> filter.</li>
-</ul>
-</li>
-<li>
-<p><strong>Templating (Nunjucks and Markdown):</strong></p>
-<ul>
-<li><code>src/_includes/base.njk</code>: This is the base layout for all pages, including the HTML structure, head, header, main content area, and footer. It pulls in the <code>title</code> variable and the main <code>content</code>.</li>
-<li><code>src/index.njk</code>: This is the homepage template. It extends <code>base.njk</code> and iterates through a collection of posts (<code>collections.posts</code>) to display them.</li>
-<li><code>src/_includes/post.njk</code>: This is likely the layout for individual blog posts (inferred from <code>my-first-post.md</code>&rsquo;s <code>layout: post.njk</code>).</li>
-<li>Markdown files like <code>src/my-first-post.md</code> are used for blog post content. They include front matter (YAML at the top) for metadata like <code>title</code>, <code>description</code>, <code>date</code>, <code>tags</code>, and <code>layout</code>.</li>
-</ul>
-</li>
-<li>
-<p><strong>Styling (Tailwind CSS and PostCSS):</strong></p>
-<ul>
-<li>The project uses Tailwind CSS for utility-first styling.</li>
-<li><code>src/assets/css/index.css</code> is the main CSS file where Tailwind directives are likely imported.</li>
-<li><code>eleventy.config.js</code> includes a build step that uses PostCSS with <code>tailwindcss</code> and <code>cssnano</code> (for CSS minification) to process the CSS. This ensures that only the necessary Tailwind CSS is included in the final build, optimizing file size.</li>
-</ul>
-</li>
-<li>
-<p><strong>Project Structure:</strong></p>
-<ul>
-<li><code>src/</code>: Contains all source files for the blog.
-<ul>
-<li><code>src/_includes/</code>: Contains Nunjucks layout files (<code>base.njk</code>, <code>post.njk</code>).</li>
-<li><code>src/assets/</code>: Contains static assets like <code>css</code> and <code>images</code>.</li>
-<li><code>src/index.njk</code>: The homepage.</li>
-<li><code>src/*.md</code>: Markdown files for blog posts.</li>
-</ul>
-</li>
-<li><code>_site/</code>: This directory is where Eleventy outputs the generated static files (HTML, processed CSS, copied images).</li>
-</ul>
-</li>
-<li>
-<p><strong>Scripts:</strong></p>
-<ul>
-<li><code>package.json</code> defines two main scripts:
-<ul>
-<li><code>npm start</code>: Runs Eleventy in development mode with a local server (<code>--serve</code>) and sets <code>ELEVENTY_PRODUCTION=false</code>.</li>
-<li><code>npm build</code>: Builds the static site for production, setting <code>ELEVENTY_PRODUCTION=true</code>, which affects the <code>pathPrefix</code> in <code>eleventy.config.js</code> (useful for GitHub Pages deployments).</li>
-</ul>
-</li>
-</ul>
-</li>
+<li><strong>Hugo:</strong> A fast and flexible static site generator written in Go. It takes content files (like Markdown) and uses Go Templates to build a complete website.</li>
+<li><strong>Tailwind CSS:</strong> A utility-first CSS framework for rapid UI development. It&rsquo;s configured in <code>tailwind.config.js</code> and processed to generate the final CSS.</li>
+<li><strong>Markdown:</strong> Content for blog posts is written in Markdown files located in the <code>content/</code> directory.</li>
+<li><strong>Archetypes:</strong> Post templates, or archetypes, are used to pre-fill front matter for new content, ensuring consistency.</li>
 </ol>
-<p>In summary, this is a modern static blog setup that leverages Eleventy for content management and templating, and Tailwind CSS for efficient and maintainable styling, with a build process that optimizes the CSS for production.</p>
 
   </div>
 </article>
